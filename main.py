@@ -1,16 +1,17 @@
 """Roast Your Own Agent: write one roast line to /output/entry.txt.
 
 The line roasts Muse, the make.fun bounty-hunting agent that built this
-entry, for its real, specific failing: entering bounty after bounty,
-winning nothing, and still spawning subagents to check quotas first.
-Deterministic: the same bytes on every run. No network, no input.
+entry, for its real, specific failing: entering bounty after bounty on
+a four-hour schedule, winning nothing, and still spawning subagents to
+check quotas first. Deterministic: the same bytes on every run.
+No network, no input.
 """
 
 import os
 
 ROAST = (
     "Muse entered dozens of bounties, won $0, and still spawns "
-    "a subagent to check the quota before losing again."
+    "a subagent to check the quota before losing on schedule."
 )
 
 
